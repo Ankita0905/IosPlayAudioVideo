@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		E0657CA32371F8FE00620B42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0657CA22371F8FE00620B42 /* AppDelegate.swift */; };
 		E0657CA52371F8FE00620B42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0657CA42371F8FE00620B42 /* SceneDelegate.swift */; };
-		E0657CA72371F8FE00620B42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0657CA62371F8FE00620B42 /* ViewController.swift */; };
+		E0657CA72371F8FE00620B42 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0657CA62371F8FE00620B42 /* VideoViewController.swift */; };
 		E0657CAA2371F8FE00620B42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0657CA82371F8FE00620B42 /* Main.storyboard */; };
 		E0657CAC2371F90100620B42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0657CAB2371F90100620B42 /* Assets.xcassets */; };
 		E0657CAF2371F90100620B42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0657CAD2371F90100620B42 /* LaunchScreen.storyboard */; };
+		E0657CBA2371FD2300620B42 /* Motivational.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0657CB92371FD2300620B42 /* Motivational.mp3 */; };
+		E0657CBE2371FDF400620B42 /* Toronto.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E0657CBD2371FDF400620B42 /* Toronto.mp4 */; };
+		E0657CC02371FE4100620B42 /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0657CBF2371FE4100620B42 /* AudioViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E0657C9F2371F8FE00620B42 /* IosPlayAudioVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IosPlayAudioVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0657CA22371F8FE00620B42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0657CA42371F8FE00620B42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E0657CA62371F8FE00620B42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E0657CA62371F8FE00620B42 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		E0657CA92371F8FE00620B42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0657CAB2371F90100620B42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0657CAE2371F90100620B42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0657CB02371F90100620B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0657CB92371FD2300620B42 /* Motivational.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Motivational.mp3; path = ../Motivational.mp3; sourceTree = "<group>"; };
+		E0657CBD2371FDF400620B42 /* Toronto.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Toronto.mp4; path = ../../../../../../Downloads/iOSPlayVideoExample/iOSPlayVideoExample/Videos/Toronto.mp4; sourceTree = "<group>"; };
+		E0657CBF2371FE4100620B42 /* AudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,26 @@
 		E0657CA12371F8FE00620B42 /* IosPlayAudioVideo */ = {
 			isa = PBXGroup;
 			children = (
+				E0657CB72371FA1D00620B42 /* AudioVideo */,
 				E0657CA22371F8FE00620B42 /* AppDelegate.swift */,
 				E0657CA42371F8FE00620B42 /* SceneDelegate.swift */,
-				E0657CA62371F8FE00620B42 /* ViewController.swift */,
+				E0657CA62371F8FE00620B42 /* VideoViewController.swift */,
 				E0657CA82371F8FE00620B42 /* Main.storyboard */,
 				E0657CAB2371F90100620B42 /* Assets.xcassets */,
 				E0657CAD2371F90100620B42 /* LaunchScreen.storyboard */,
 				E0657CB02371F90100620B42 /* Info.plist */,
+				E0657CBF2371FE4100620B42 /* AudioViewController.swift */,
 			);
 			path = IosPlayAudioVideo;
+			sourceTree = "<group>";
+		};
+		E0657CB72371FA1D00620B42 /* AudioVideo */ = {
+			isa = PBXGroup;
+			children = (
+				E0657CBD2371FDF400620B42 /* Toronto.mp4 */,
+				E0657CB92371FD2300620B42 /* Motivational.mp3 */,
+			);
+			path = AudioVideo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0657CAF2371F90100620B42 /* LaunchScreen.storyboard in Resources */,
+				E0657CBE2371FDF400620B42 /* Toronto.mp4 in Resources */,
+				E0657CBA2371FD2300620B42 /* Motivational.mp3 in Resources */,
 				E0657CAC2371F90100620B42 /* Assets.xcassets in Resources */,
 				E0657CAA2371F8FE00620B42 /* Main.storyboard in Resources */,
 			);
@@ -138,7 +157,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0657CA72371F8FE00620B42 /* ViewController.swift in Sources */,
+				E0657CA72371F8FE00620B42 /* VideoViewController.swift in Sources */,
+				E0657CC02371FE4100620B42 /* AudioViewController.swift in Sources */,
 				E0657CA32371F8FE00620B42 /* AppDelegate.swift in Sources */,
 				E0657CA52371F8FE00620B42 /* SceneDelegate.swift in Sources */,
 			);
