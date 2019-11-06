@@ -68,12 +68,12 @@
 				E0657CA22371F8FE00620B42 /* AppDelegate.swift */,
 				E0657CA42371F8FE00620B42 /* SceneDelegate.swift */,
 				E0657CA62371F8FE00620B42 /* VideoViewController.swift */,
+				E0DEB577237351A600757AF5 /* NewAudioViewController.swift */,
 				E0657CA82371F8FE00620B42 /* Main.storyboard */,
 				E0657CAB2371F90100620B42 /* Assets.xcassets */,
 				E0657CAD2371F90100620B42 /* LaunchScreen.storyboard */,
 				E0657CB02371F90100620B42 /* Info.plist */,
 				E0657CBF2371FE4100620B42 /* AudioViewController.swift */,
-				E0DEB577237351A600757AF5 /* NewAudioViewController.swift */,
 			);
 			path = IosPlayAudioVideo;
 			sourceTree = "<group>";

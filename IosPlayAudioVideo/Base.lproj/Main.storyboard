@@ -33,7 +33,7 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MkH-vr-4Io">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MkH-vr-4Io">
                                 <rect key="frame" x="95" y="417" width="225" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.94861819215705101" green="0.89694381997274075" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -170,11 +170,11 @@
         <scene sceneID="LQ6-ak-NjO">
             <objects>
                 <viewController id="cwg-a2-gZz" customClass="NewAudioViewController" customModule="IosPlayAudioVideo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="4Mg-fI-R4X">
+                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="4Mg-fI-R4X">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tk2-fn-41z">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tk2-fn-41z">
                                 <rect key="frame" x="95" y="418" width="225" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.96102386709999998" green="0.89245241880000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -187,7 +187,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.60235553980000001" green="0.0" blue="0.1137048677" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.5" green="0.0" blue="0.09883149267456659" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="L9u-s2-GKQ"/>
                     </view>
                     <navigationItem key="navigationItem" title="Audio Player" id="ESn-12-igB"/>
