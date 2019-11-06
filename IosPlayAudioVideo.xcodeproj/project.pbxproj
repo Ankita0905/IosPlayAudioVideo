@@ -16,6 +16,7 @@
 		E0657CBA2371FD2300620B42 /* Motivational.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0657CB92371FD2300620B42 /* Motivational.mp3 */; };
 		E0657CBE2371FDF400620B42 /* Toronto.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E0657CBD2371FDF400620B42 /* Toronto.mp4 */; };
 		E0657CC02371FE4100620B42 /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0657CBF2371FE4100620B42 /* AudioViewController.swift */; };
+		E0DEB578237351A600757AF5 /* NewAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DEB577237351A600757AF5 /* NewAudioViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		E0657CB92371FD2300620B42 /* Motivational.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Motivational.mp3; path = ../Motivational.mp3; sourceTree = "<group>"; };
 		E0657CBD2371FDF400620B42 /* Toronto.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Toronto.mp4; path = ../../../../../../Downloads/iOSPlayVideoExample/iOSPlayVideoExample/Videos/Toronto.mp4; sourceTree = "<group>"; };
 		E0657CBF2371FE4100620B42 /* AudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioViewController.swift; sourceTree = "<group>"; };
+		E0DEB577237351A600757AF5 /* NewAudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAudioViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				E0657CAD2371F90100620B42 /* LaunchScreen.storyboard */,
 				E0657CB02371F90100620B42 /* Info.plist */,
 				E0657CBF2371FE4100620B42 /* AudioViewController.swift */,
+				E0DEB577237351A600757AF5 /* NewAudioViewController.swift */,
 			);
 			path = IosPlayAudioVideo;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			files = (
 				E0657CA72371F8FE00620B42 /* VideoViewController.swift in Sources */,
 				E0657CC02371FE4100620B42 /* AudioViewController.swift in Sources */,
+				E0DEB578237351A600757AF5 /* NewAudioViewController.swift in Sources */,
 				E0657CA32371F8FE00620B42 /* AppDelegate.swift in Sources */,
 				E0657CA52371F8FE00620B42 /* SceneDelegate.swift in Sources */,
 			);

@@ -8,6 +8,7 @@
 
 import UIKit
 import AVFoundation
+import AVKit
 
 class AudioViewController: UIViewController,AVAudioPlayerDelegate {
 
@@ -17,7 +18,6 @@ class AudioViewController: UIViewController,AVAudioPlayerDelegate {
     @IBOutlet weak var lblCurrentTime: UILabel!
       @IBOutlet weak var soundProgressBar: UIProgressView!
       
-    
    override func viewDidLoad() {
             super.viewDidLoad()
             // Do any additional setup after loading the view, typically from a nib.

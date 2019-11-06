@@ -34,25 +34,30 @@
                                 </items>
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MkH-vr-4Io">
-                                <rect key="frame" x="82" y="370" width="223" height="58"/>
+                                <rect key="frame" x="95" y="417" width="225" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.94861819215705101" green="0.89694381997274075" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Play Audio"/>
+                                <state key="normal" title="Play Audio">
+                                    <color key="titleColor" red="0.48108267780000002" green="0.0" blue="0.090181477369999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
-                                    <segue destination="x4d-n6-CH8" kind="show" id="sgp-q8-peY"/>
+                                    <segue destination="cwg-a2-gZz" kind="show" id="ZGX-5W-3vX"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.55178506755586809" green="0.047364600128831286" blue="0.13450830327742999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Video Player" id="pXh-da-1Qj">
                         <barButtonItem key="leftBarButtonItem" title="Play Live" id="cSD-rN-GTm">
+                            <color key="tintColor" red="0.60235553980000001" green="0.0" blue="0.1137048677" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             <connections>
                                 <action selector="btnPlayLiveAction:" destination="BYZ-38-t0r" id="2rx-NQ-5LP"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Play Local" id="W1U-jd-23b">
+                            <color key="tintColor" red="0.60235553980000001" green="0.0" blue="0.1137048677" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             <connections>
                                 <action selector="btnPlayLocalAction:" destination="BYZ-38-t0r" id="fr6-xA-uIv"/>
                             </connections>
@@ -141,7 +146,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="13b-hR-424" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1842.0289855072465" y="114.50892857142857"/>
+            <point key="canvasLocation" x="138" y="886"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="cu8-st-ELX">
@@ -160,6 +165,39 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dx6-pr-ZVF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="114.50892857142857"/>
+        </scene>
+        <!--Audio Player-->
+        <scene sceneID="LQ6-ak-NjO">
+            <objects>
+                <viewController id="cwg-a2-gZz" customClass="NewAudioViewController" customModule="IosPlayAudioVideo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4Mg-fI-R4X">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tk2-fn-41z">
+                                <rect key="frame" x="95" y="418" width="225" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.96102386709999998" green="0.89245241880000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Play">
+                                    <color key="titleColor" red="0.65709161760000001" green="0.001298423042" blue="0.078388161959999994" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnActionPlay:" destination="cwg-a2-gZz" eventType="touchUpInside" id="ACD-SJ-wUw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.60235553980000001" green="0.0" blue="0.1137048677" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="L9u-s2-GKQ"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Audio Player" id="ESn-12-igB"/>
+                    <connections>
+                        <outlet property="btnPlay" destination="Tk2-fn-41z" id="qWb-X6-CcG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7iE-TS-xFL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1982.608695652174" y="114.50892857142857"/>
         </scene>
     </scenes>
 </document>
