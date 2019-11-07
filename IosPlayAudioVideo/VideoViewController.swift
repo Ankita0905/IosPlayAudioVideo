@@ -33,7 +33,8 @@ class VideoViewController: UIViewController {
         }
         
         @IBAction func btnPlayLiveAction(_ sender: UIBarButtonItem) {
-            //http://jplayer.org/video/m4v/Big_Buck_Bunny_Trailer.m4v
+            
+           // if let pathUrl = URL(string: "https://youtu.be/sJJk3maVzvA")
             if let pathUrl = URL(string: "https://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"){
                 
                 self.video = AVPlayer(url: pathUrl)
